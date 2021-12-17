@@ -51,7 +51,7 @@ function newQuote() {
 
 function playClickSound() {
 
-    var audio = new Audio('sfx/whoosh.wav');
+    var audio = new Audio('sfx/click.wav');
     audio.play();
 
 }
