@@ -46,3 +46,12 @@ function newQuote() {
     let randomNumber = Math.floor(Math.random() * quoteLog.length);
     document.getElementById('quoteDisplay').innerHTML = quoteLog[randomNumber];
 }
+
+//document.getElementById('quotebttn').addEventListener('click', playClickSound);
+
+function playClickSound() {
+
+    var audio = new Audio('sfx/whoosh.wav');
+    audio.play();
+
+}

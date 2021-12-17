@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
-    color: #FEA82F
+    color: #E5890A;
     
 }
 
@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     padding-top: 10%;
-    color: #FFC288;
+    color: #FF8243;
     
 }
 
@@ -21,11 +21,14 @@ h1 {
 }
 
 body {
-    background-color: #F4F9F9;
+    
+    background-color: #F6F6F6;
+
 }
 
 #quotebttn {
-    background-color: #FFC288;
+    /*background-color: #FFC288;*/
+    background-color: #ffb042;
     color:white;
     border: none;
     padding: 10px 20px;
