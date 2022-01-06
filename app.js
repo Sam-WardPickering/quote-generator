@@ -49,10 +49,11 @@ function newQuote() {
 
 //document.getElementById('quotebttn').addEventListener('click', playClickSound);
 
-function playClickSound() {
 
-    var audio = new Audio('sfx/click.wav');
-    audio.play();
-    audio.volume = 0.3;
+// function playClickSound() {
 
-}
+//     var audio = new Audio('sfx/click.wav');
+//     audio.play();
+//     audio.volume = 0.3;
+
+// }
