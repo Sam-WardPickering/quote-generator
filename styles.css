@@ -21,11 +21,6 @@ h1 {
 
 }
 
-body {
-    
-    background-color: #F6F6F6;
-
-}
 
 #quotebttn {
     /*background-color: #FFC288;*/
@@ -42,5 +37,40 @@ body {
   }
 
 
+@media only screen and (max-width: 320px) {
+    #quotebttn {
+      background-color: blue;
+    }
+    body {
+       background-color: #F6F6F6;
+    }
+  }
 
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    #quotebttn {
+        background-color: red;
+    }
+    body {
+        background-color: #F1F2F2;
+    }
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    #quotebttn {
+        background-color: orange;
+    }
+    body {
+        background-color: #E6E7E8;
+    }
+    
+}
+
+@media only screen and (min-width: 1210px) {
+    #quotebttn {
+        background-color: green;
+
+    }
+    body {
+        background-color: #D1D3D4;
+    }
+}

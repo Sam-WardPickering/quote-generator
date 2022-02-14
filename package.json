@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "colorette": "^2.0.16"
+  },
+  "name": "quotegenerator",
+  "version": "1.0.0",
+  "description": "generates quotes",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Ward-Pickering",
+  "license": "ISC"
+}
